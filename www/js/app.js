@@ -38,6 +38,11 @@ myAppApp.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/login');
 })
 
+
+
+
+///Credit for this code:
+///https://blog.nraboy.com/2014/07/using-oauth-2-0-service-ionicframework/
 var requestToken = "";
 var accessToken = "";
 var clientId = "543413245498-v99cafvl3et0d8fa3blr8peoddd3rtp5.apps.googleusercontent.com";
